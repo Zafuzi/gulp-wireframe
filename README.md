@@ -11,4 +11,4 @@ gulp-wireframe exists to help make my build process a little easier. The file st
     - npm run serve / gulp prod
 
 ### notes
-    If you are an employer, this is a good example of how I begin a project. Otherwise if you do happen to come across this repo by chance and have some advice, please let me know.
+_If you are an employer, this is a good example of how I begin a project. Otherwise if you do happen to come across this repo by chance and have some advice, please let me know._
