@@ -1,0 +1,97 @@
+body, html {
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* Icons
+------------------------------------------*/
+
+header {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  min-height: 32px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* Icons
+------------------------------------------*/
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Clickables
+------------------------------------------*/
+
+a {
+  color: #03A9F4;
+  text-decoration: none;
+}
+button {
+  background: #80CBC4;
+  padding: 1rem;
+  margin: .1em;
+}
+button a{
+  color: white;
+  height: 100%;
+}
+.vertical-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+.vertical-align .align{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100%; /* <-- adjust this */
+}
+
+/* Headers and Labels
+------------------------------------------*/
+
+h5 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-shadow: .01em .01em .01em #424242;
+}
+label {
+  color: #212121;
+}
+label .nice-label {
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+}

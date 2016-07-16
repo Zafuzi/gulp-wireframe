@@ -1,0 +1,24 @@
+{
+  "name": "gulp-wireframe",
+  "version": "0.0.1",
+  "description": "A simple wireframe for starting a new gulp project",
+  "scripts": {
+    "test": "echo \"and you thought I knew what I was doing, shame shame.\" && exit 1",
+    "build": "gulp build",
+    "serve": "gulp prod"
+  },
+  "author": "Zachary Foutz (DauntlessTech)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-copy": "0.0.2",
+    "gulp-minify": "0.0.12",
+    "gulp-serve": "^1.2.0",
+    "gulp-watch": "^4.3.8",
+    "gulp-concat": "^2.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "wingcss": "^0.1.4"
+  }
+}
